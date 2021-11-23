@@ -1,15 +1,16 @@
+package input;
+
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.File;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Parser {
 
-	public static List<String> Parser(String fileName) throws IOException{
+	public Parser() {}
+	
+	public static List<String> parser(String fileName) throws IOException{
 		BufferedReader br = null;
 		List<String> res =new ArrayList<>();
 		try {
@@ -28,7 +29,9 @@ public class Parser {
 			}
 		}
 		
+		System.out.println(res.toString());	
 		return res;
 	}
 
 }
+
