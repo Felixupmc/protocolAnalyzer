@@ -1,5 +1,4 @@
-package pobj;
-
+package corp;
 import javax.swing.BorderFactory;
 import javax.swing.JFrame;
 import javax.swing.JLabel;

@@ -1,4 +1,4 @@
-package pobj.champs;
+package corp.champs;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package pobj;
+package corp;
 
 import java.util.StringJoiner;
 import pobj.champs.Couche7;
